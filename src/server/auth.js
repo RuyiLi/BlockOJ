@@ -19,6 +19,26 @@ router.post('/submit', (req, res) => {
 			number: 1,
 			cases: 5
 		}
+	} else if (name === 'helloworld') {
+		problem = {
+			number: 2,
+			cases: 1
+		}
+	} else if (name === 'listminimum') {
+		problem = {
+			number: 3,
+			cases: 2
+		}
+	} else if (name === 'snowman') {
+		problem = {
+			number: 4,
+			cases: 3
+		}
+	} else if (name === 'outofplace') {
+		problem = {
+			number: 5,
+			cases: 2
+		}
 	}
 
 	// Math name to probk
