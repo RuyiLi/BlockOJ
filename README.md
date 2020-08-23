@@ -8,9 +8,9 @@ BlockOJ is an online judge built around Google's Blockly library that teaches ch
 
 On BlockOJ, users can sign up and use our lego-like code editor to solve instructive programming challenges! Solutions can be verified by pitting them against numerous test cases hidden in our servers :) -- simply click the "submit" button and we'll take care of the rest.
 
-Our lightning fast judge, painstakingly written in C, will provide instantaneous feedbeck on the correctness of your solution (ie. how many of the test cases did your program evaluate correctly?).
+Our lightning fast judge, painstakingly written in C, will provide instantaneous feedback on the correctness of your solution (ie. how many of the test cases did your program evaluate correctly?).
 
-![Figure 2. Image of entire judge submission page](https://i.imgur.com/wYDWXaj.png)
+![Figure 2. Image of entire judge submission page](https://i.imgur.com/N898UAw.jpg)
 
 ## Inspiration and Design Motivation
 
@@ -23,7 +23,7 @@ We wanted a tool that was
 
 Using the Blockly library, we were able to use a code editor which resembles building with LEGO: the block-by-block assembly process is **procedural** and children can easily look at the **big picture** of programming by looking at how the blocks interlock with each other.
 
-Our programming challenges aim to gameify learning. Not only will children using BlockOJ **learn by doing**, but they will also slowly accumulate basic programming know-how through our carefully designed sequence of problems.
+Our programming challenges aim to gameify learning, making it less intimidating and more appealing to younger audiences. Not only will children using BlockOJ **learn by doing**, but they will also slowly accumulate basic programming know-how through our carefully designed sequence of problems.
 
 Finally, not all our problems are easy. Some are hard (in fact, the problem in our demo is extremely difficult for elementary students). In our opinion, it is beneficial to mix in one or two difficult challenges in problemsets, for they give children the opportunity to gain valuable problem solving experience. Difficult problems also pave room for students to engage with teachers. Solutions are saved so children can easily come back to a difficult problem after they gain more experience.
 
@@ -31,8 +31,12 @@ Finally, not all our problems are easy. Some are hard (in fact, the problem in o
 
 Here's the tl;dr version.
 - AWS EC2
-- Postgresql
+- PostgreSQL
 - NodeJS
 - Express
-- SaSS/Pug
-- ...and last but not least, our beloved trio, HTML/CSS/JavaScript
+- C
+- Pug
+- SASS
+- JavaScript
+
+*We used a link shortener for our "Try it out" link because DevPost doesn't like URLs with ports.*
